@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Brew of Kovai</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">
+        <img src="Brewee-removebg-preview.png".png" alt="Brew of Kovai logo" />
+        <span class="brand">Brew of Kovai</span>
+      </div>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#products">Products</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contact">Contact Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero container">
+    <div class="hero-card">
+      <div class="hero-text">
+        <h1>BREW OF KOVAI</h1>
+        <p class="subtitle">Where Every Sip Feels Like Home</p>
+        <p class="lead">
+          Experience the true taste of Coimbatore in every cup. Freshly brewed, perfectly balanced, and made with love.
+          Your everyday coffee moment—elevated.
+        </p>
+
+        <div class="cta-wrap">
+          <a class="btn primary" href="#products">ORDER NOW</a>
+          <a class="btn outline" href="#products">EXPLORE MENU</a>
+        </div>
+        <div class="dots">
+        <center><span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span></center>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <!-- Replace hero.jpg with your coffee image (splash) -->
+        <img src="cp-removebg-preview.png" alt="coffee splash" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about container">
+    <h2 class="section-title">About Us</h2>
+    <div class="about-card">
+      <div class="about-image">
+        <img src="pe-removebg-preview.png" alt="cup of coffee" />
+      </div>
+      <div class="about-text">
+        <p>
+          Brew of Kovai is built on a passion for fresh, authentic Coimbatore coffee. We roast our own beans to bring you pure
+          aroma and rich flavour in every cup. Our brews blend tradition with quality to create a comforting experience. With a cozy
+          ambience and friendly service, every visit feels warm and welcoming. Here, coffee isn't just a drink—it's a feeling.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="products" class="services container">
+    <h2 class="section-title">Our Services</h2>
+
+    <div class="services-carousel">
+      <button class="nav prev" aria-label="Previous">‹</button>
+
+      <ul class="slides" id="slides">
+        <li class="slide">
+          <div class="service-card">
+            <img src="v1-removebg-preview.png" alt="Cappuccino" />
+            <div class="service-name">Cappuccino</div>
+          </div>
+        </li>
+        <li class="slide">
+          <div class="service-card">
+            <img src="v2-removebg-preview.png" alt="Kovai Coffee" />
+            <div class="service-name">Kovai Coffee</div>
+          </div>
+        </li>
+        <li class="slide">
+          <div class="service-card">
+            <img src="v3-removebg-preview.png" alt="Cold Coffee" />
+            <div class="service-name">Cold Coffee</div>
+          </div>
+        </li>
+        <li class="slide">
+          <div class="service-card">
+            <img src="v4-removebg-preview.png" alt="Black Coffee" />
+            <div class="service-name">Black Coffee</div>
+          </div>
+        </li>
+        <li class="slide">
+          <div class="service-card">
+            <img src="v5-removebg-preview.png" alt="Coffee icecream" />
+            <div class="service-name">Coffee icecream</div>
+          </div>
+        </li>
+      </ul>
+
+      <button class="nav next" aria-label="Next">›</button>
+    </div>
+
+    <div class="carousel-dots" id="serviceDots"></div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section id="reviews" class="reviews container">
+    <h2 class="section-title">Reviews</h2>
+    <div class="review-card">
+      <div class="review-avatar">
+        <img src="ChatGPT Image Nov 25, 2025, 08_04_57 PM.png" alt="family review" />
+      </div>
+      <div class="review-text">
+        <blockquote>
+          “Our family loved every sip at Brew of Kovai — a perfect place where warmth meets great taste. The kids enjoyed the cozy vibe,
+          and we enjoyed the rich, flavorful coffee crafted with care. A must-visit cafe for families in Kovai looking for quality time
+          and exceptional coffee!”
+        </blockquote>
+        <p class="from">From : Christoper & Family</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact container">
+    <h2 class="section-title">Contact Us</h2>
+    <p class="contact-intro">Feel free to contact our team !</p>
+
+    <div class="contact-grid">
+      <div class="contact-info">
+        <ul class="info-list">
+          <li><strong>Working Hours:</strong> 7:00 AM – 10:00 PM (All Days)</li>
+          <li><strong>Email:</strong> brewofkovai@gmail.com</li>
+          <li><strong>Phone:</strong> +91 12345-67890</li>
+          <li><strong>Address:</strong> Brew of Kovai, Coimbatore, Tamil Nadu</li>
+        </ul>
+      </div>
+
+      <form class="contact-form" action="#" method="post" onsubmit="alert('Form submit demo — connect a backend.'); return false;">
+        <label>
+          <input type="text" name="name" placeholder="Name" required>
+        </label>
+        <label>
+          <input type="email" name="email" placeholder="E-mail" required>
+        </label>
+        <label>
+          <textarea name="message" rows="5" placeholder="How Can I Help You?" required></textarea>
+        </label>
+        <button class="btn primary" type="submit">SEND MESSAGE</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Brew of Kovai. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Simple JS for carousel + year -->
+  <script>
+    // Set current year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Services carousel (simple)
+    (function() {
+      const slides = document.querySelectorAll('#slides .slide');
+      const next = document.querySelector('.nav.next');
+      const prev = document.querySelector('.nav.prev');
+      const dotsWrap = document.getElementById('serviceDots');
+      let index = 0;
+
+      function show(i) {
+        slides.forEach((s, idx) => {
+          s.style.display = idx === i ? 'flex' : 'none';
+        });
+        updateDots(i);
+      }
+
+      function updateDots(i) {
+        dotsWrap.innerHTML = '';
+        slides.forEach((_, idx) => {
+          const d = document.createElement('button');
+          d.className = 'dot' + (idx === i ? ' active' : '');
+          d.addEventListener('click', () => { index = idx; show(index); });
+          dotsWrap.appendChild(d);
+        });
+      }
+
+      next.addEventListener('click', () => { index = (index + 1) % slides.length; show(index); });
+      prev.addEventListener('click', () => { index = (index - 1 + slides.length) % slides.length; show(index); });
+
+      // Initialize
+      show(index);
+    })();
+  </script>
+</body>
+</html>
